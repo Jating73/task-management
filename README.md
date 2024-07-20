@@ -5,7 +5,20 @@
 ## Setup
 
 ```bash
-  nest new project-name
+# Install NestJS CLI
+$ npm i -g @nest/cli
+
+# Create a new project
+$ nest new project-name
+
+# Create a module
+$ nest g module moduleName
+
+# Create a controller
+$ nest g controller controllerName --no-spec
+
+# Create a service
+$ nest g service serviceName --no-spec
 ```
 
 ## Installation
